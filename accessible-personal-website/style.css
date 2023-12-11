@@ -1,0 +1,50 @@
+body, h1, h2{
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: lightpink;
+}
+
+header{
+    background-color: goldenrod;
+    color:black;
+    text-align: center;
+    padding:20px;
+}
+nav ul{
+    text-align: left;
+}
+
+nav ul li{
+    color: goldenrod;
+    margin-right: 20px;
+}
+
+main{
+    background-color:goldenrod;
+    padding:20px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: goldenrod;
+    text-align:center;
+    padding: 10px;
+}
+
+a{
+    color:teal;
+    text-decoration:underline;
+    font-family:cursive;
+}
+
+.copyright::after{
+    content:"\00A9";
+}
