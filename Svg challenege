@@ -1,0 +1,24 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  
+  <circle cx="50" cy="50" r="30" fill="blue" />
+
+  
+  <ellipse cx="150" cy="50" rx="30" ry="20" fill="green" />
+
+  
+  <rect x="50" y="100" width="80" height="50" fill="red" />
+
+  
+  <path d="M200,100 L250,150 L200,200 L150,150 Z" fill="yellow" />
+
+  
+  <polygon points="250,100 300,100 325,150 300,200 250,200" fill="orange" />
+
+  
+  <g transform="translate(100, 200)">
+    <circle cx="50" cy="50" r="20" fill="purple" />
+    <rect x="30" y="30" width="40" height="30" fill="pink" />
+  </g>
+
+</svg>
